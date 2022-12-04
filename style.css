@@ -1,36 +1,45 @@
-:root{
-    --color1:rgb(23, 42, 1);
-    --color2:rgb(124, 39, 39);
-    
-}
 
     .logom{
         width: 100px;
-    height: auto;
+    height: 70px;
    
     }
     .nav-item{
-     display: flex;
+    display: flex;
      align-items: center;
+   
         
     }
     .ayrac{
         font-size: 20px;
-        margin: 0 20px;
-        color: rgb(59, 39, 39);
+        margin: 0px 20px;
+        color: rgb(28, 8, 8);
     }
     .nv-bg{
         background-color: rgba(122 ,122 ,122 ,0.356);
  
     }
-    .nav-item a{
+  .nav-item a{
         color: rgb(44, 38, 17);
-        font-size: 1.1rem;
+        font-size: 16px;
         font-weight: bold;
+        padding: 8px;
+       
     }
+    
     .nav-item a:hover{
-        background-color: rgb(105, 120, 171);
+    color: #309c78;;
     }
-     
-
- 
+    
+    @media screen and
+        
+     (max-width: 992px)  {
+        .ayrac{
+            display: none;
+        }
+    }
+    .nav-item ,
+    .nav-link active:hover{
+        color: #309c78;;
+    }
+    
