@@ -42,4 +42,7 @@
     .nav-link active:hover{
         color: #309c78;;
     }
-    
+   .img-fluid{
+    margin-top: 2.2rem;
+    margin-left: 25px;
+   }
