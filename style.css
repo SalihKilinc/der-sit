@@ -1,7 +1,9 @@
-
+/* Menu Bolumu */
     .logom{
         width: 100px;
-    height: 70px;
+    height: 100px;
+    background-color: rgba(56, 39, 25, 0.937);
+ 
    
     }
     .nav-item{
@@ -13,36 +15,85 @@
     .ayrac{
         font-size: 20px;
         margin: 0px 20px;
-        color: rgb(28, 8, 8);
+        color: rgb(70, 48, 48);
     }
     .nv-bg{
-        background-color: rgba(122 ,122 ,122 ,0.356);
+        background-color:white
  
     }
   .nav-item a{
-        color: rgb(44, 38, 17);
+      color: rgb(26, 4, 4);
         font-size: 16px;
         font-weight: bold;
         padding: 8px;
        
     }
-    
     .nav-item a:hover{
-    color: #309c78;;
-    }
+        color: rgb(184, 61, 61);
+          }
+          
+          @media screen and
+              
+           (max-width: 992px)  {
+              .ayrac{
+                  display: none;
+              }
+          }
+
+          .nav-item ,
+          .nav-link active:hover{
+              color: #30b286;;
+          }
+
+
+
+
+
+/* Slider Bolumu */
+
+
+    .resimSlider{
+        display: inline-block;
+    max-width: 100%;
+  
+     
+  
+     
     
-    @media screen and
-        
-     (max-width: 992px)  {
-        .ayrac{
-            display: none;
-        }
+    
     }
-    .nav-item ,
-    .nav-link active:hover{
-        color: #309c78;;
-    }
+
+
+    /* Hedef sayfasi */
+    
+    
    .img-fluid{
     margin-top: 2.2rem;
     margin-left: 25px;
    }
+   
+   .card {
+   margin-top: 2rem;
+   margin-left: 25px;
+    
+   }
+ 
+    
+   
+    /*Footer Bolumu */
+    .footer{
+        background-color: yellowgreen;
+        height: 300px;
+    }
+   
+    .under{
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 110px;
+      color: rgb(249, 247, 247);
+      font-size: 20px;
+    }
+ .par{
+    margin-top: 2px;
+ }
