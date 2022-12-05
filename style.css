@@ -6,6 +6,10 @@
  
    
     }
+.title{
+    padding: 41px;
+   color: rgb(140, 110, 70);
+}
     .nav-item{
     display: flex;
      align-items: center;
@@ -18,7 +22,7 @@
         color: rgb(70, 48, 48);
     }
     .nv-bg{
-        background-color:white
+        background-color:white;
  
     }
   .nav-item a{
