@@ -1,5 +1,0 @@
-about
-contact
-home
-index
-assets
