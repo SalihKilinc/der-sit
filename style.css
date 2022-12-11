@@ -3,10 +3,13 @@
     .logom{
         width: 100px;
     height: 100px;
+   
     background-color: rgba(56, 39, 25, 0.937);
  
    
     }
+   
+    
     .bas{
         background-attachment: fixed;
     }
@@ -27,18 +30,22 @@
         color: rgb(70, 48, 48);
     }
     .nv-bg{
-        background-color:white;
+        background-color:rgba(255, 255, 255, 0);
  
     }
+    .nv-bg {
+        margin-top: -7px;
+        background-color: white;
+    }
   .nav-item a{
-      color: rgb(26, 4, 4);
+      color: rgb(20, 2, 2);
         font-size: 16px;
         font-weight: bold;
         padding: 8px;
        
     }
     .nav-item a:hover{
-        color: rgb(184, 61, 61);
+        color: rgb(187, 4, 4);
           }
           
           @media screen and
@@ -59,20 +66,11 @@
 
 
 /* Slider Bolumu */
-
-
-    .resimSlider{
-        display: inline-block;
-    max-width: 100%;
-    margin-top: 50px;
-    margin-bottom: 25px;
-  
-     
-  
-     
-    
-    
-    }
+.carousel-inner .img-fluid{
+    margin-top: 120px;
+    width: 100px;
+    height: 600px;
+}
 
 
     /* Hedef sayfasi */
@@ -85,7 +83,7 @@
    
    .card {
    margin-top: 2rem;
-  background-image: cov;
+
    }
  
     
@@ -132,8 +130,8 @@
 
 
  /*Contact */
-.ifr{
-    max-width: 600px;
+.img-fluid .ifr{
+    width: 100%;
     height: 500px;
   
    
@@ -152,7 +150,9 @@
 }
 .pc{
     text-align: center;
-    padding: 25px;
+    padding: 15px 10px 10px 10px ;
+    background-color: cornflowerblue;
+    margin-top: 5rem;
 }
 .ab{
     margin: 30px;
@@ -165,4 +165,21 @@ box-shadow: 5px 10px 15px 10px;
     cursor: pointer;
     
 
+}
+.yer{
+    width: 350px;
+    height: 500px;
+}
+.cnt{
+    margin-top: 40px;
+    width: 400px;
+    height: 300px;
+}
+.kom{
+    margin-top: 10rem;
+    width: 80%;
+    height: 500px;
+}
+.kom-pr{
+    margin-top: 10rem;
 }
