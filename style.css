@@ -84,6 +84,16 @@
    .card {
    margin-top: 2rem;
 
+
+   }
+   .hrm{
+    border: 3px solid black ;
+    box-shadow: 5px 10px 15px 10px;
+    margin-top: 15px;
+
+   }
+   .baslik{
+    margin-top: 25px;
    }
  
     
@@ -122,12 +132,17 @@
  }
  .hak{
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
  }
  .hakkimiz{
     margin-top: 2.5rem;
  }
-
+.hr{
+    border: 3px solid black ;
+    box-shadow: 5px 10px 15px 10px;
+    
+   
+}
 
  /*Contact */
 .img-fluid .ifr{
