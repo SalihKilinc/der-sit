@@ -164,8 +164,9 @@
  
 }
 .pc{
+    width: 400px;
     text-align: center;
-    padding: 15px 10px 10px 10px ;
+    padding: 5px  5px ;
     background-color: cornflowerblue;
     margin-top: 5rem;
 }
@@ -189,12 +190,4 @@ box-shadow: 5px 10px 15px 10px;
     margin-top: 40px;
     width: 400px;
     height: 300px;
-}
-.kom{
-    margin-top: 10rem;
-    width: 80%;
-    height: 500px;
-}
-.kom-pr{
-    margin-top: 10rem;
 }
